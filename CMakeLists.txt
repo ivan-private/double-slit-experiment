@@ -3,4 +3,7 @@ project(double_slit_experiment)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(double_slit_experiment src/main.cpp)
+add_executable(double_slit_experiment src/main.cpp
+        src/DoubleSlitExperiment.cpp
+        src/DoubleSlitExperiment.h
+)
